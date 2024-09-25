@@ -30,8 +30,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: AddressBookApp-New
-          environment_name: AddressBookApp-New-env
+          application_name: AddressBookApp
+          environment_name: AddressBookApp-env
           version_label: ${{ env.VERSION }}
           region: ap-southeast-1
           deployment_package: address-book-app.zip
